@@ -1,0 +1,22 @@
+# Language setting
+language: node_js
+
+# Version number
+node_js:
+  - 0.12
+ # - 5.0
+
+env:
+  global:
+    - FOO=fat
+    - BOO=bat
+
+build:
+
+  ci:
+    #- which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+    - ps -eax
+    - ls -al
+    - echo $FOO
+    - echo $BOO
+    
