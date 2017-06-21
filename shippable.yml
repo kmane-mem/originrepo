@@ -19,4 +19,4 @@ build:
     - ls -al
     - echo $FOO
     - echo $BOO
-    - echo "creating PR commit"     
+    - echo "creating PR commit"       
