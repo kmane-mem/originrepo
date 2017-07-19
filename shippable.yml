@@ -18,4 +18,5 @@ build:
     - ps -eax
     - ls -al
     - echo $FOO
-    - echo $BOO    
+    - echo $BOO
+    - echo "hello"
