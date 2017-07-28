@@ -18,5 +18,5 @@ build:
     - ps -eax
     - ls -al
     - echo $FOO
-    - echo $BOO      
-   
+    - echo $BOO   
+    - echo "PR p2 to p1 in same repo"   
