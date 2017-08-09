@@ -19,5 +19,5 @@ build:
     - ls -al
     - echo $FOO
     - echo $BOO   
-    - echo "PR p2 to p1 in same repo"   
+    - echo "PR p2 to p1 in same repo"  
   
